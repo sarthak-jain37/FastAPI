@@ -3,11 +3,15 @@
 A RESTful backend built using FastAPI with CRUD operations and basic authentication.
 
 ## Features
-- Full CRUD operations using raw SQL with PostgreSQL
-- Request and response validation using Pydantic models
-- RESTful API design with proper routing conventions
-- Path parameter handling for resource identification
-- Correct HTTP status code usage for API responses
-- Structured error handling using FastAPI HTTPException
+
+- RESTful API built with FastAPI
+- PostgreSQL relational database integration
+- SQLAlchemy ORM for object-relational mapping
+- Complete CRUD functionality for post resources
+- Dependency-injected database sessions per request
+- Pydantic models for request validation and response serialization
+- Automatic table generation from SQLAlchemy models
+- Structured error handling using HTTPException
+
 
 
