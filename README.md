@@ -1,17 +1,33 @@
-# FastAPI Backend Practice
+# FastAPI PostgreSQL CRUD API (SQLAlchemy ORM)
 
-A RESTful backend built using FastAPI with CRUD operations and basic authentication.
+A simple RESTful backend API built using **FastAPI**, **PostgreSQL**, and **SQLAlchemy ORM**.  
+This project demonstrates how to build structured backend services with proper request validation, database modeling, and controlled API responses.
 
-## Features
+---
 
-- RESTful API built with FastAPI
-- PostgreSQL relational database integration
-- SQLAlchemy ORM for object-relational mapping
-- Complete CRUD functionality for post resources
-- Dependency-injected database sessions per request
-- Pydantic models for request validation and response serialization
-- Automatic table generation from SQLAlchemy models
-- Structured error handling using HTTPException
+## 🚀 Features
 
+### Core Functionality
+- RESTful CRUD API for posts
+- PostgreSQL database integration
+- SQLAlchemy ORM models
+- Dependency-injected database sessions
+- Pydantic request validation
+- Response models for controlled API output
+- Automatic table creation from ORM models
+- Proper HTTP status codes and error handling
+
+### Post Operations
+- Create a post
+- Retrieve all posts
+- Retrieve a single post by ID
+- Update a post
+- Delete a post
+
+### Project Architecture
+- Modular project structure (`models`, `schemas`, `database`)
+- Separation of ORM models and Pydantic schemas
+- Clean database session management
+- Ready for future extensions (authentication, users, etc.)
 
 
