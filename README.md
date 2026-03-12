@@ -1,33 +1,20 @@
-# FastAPI PostgreSQL CRUD API (SQLAlchemy ORM)
+## FastAPI PostgreSQL CRUD API
 
-A simple RESTful backend API built using **FastAPI**, **PostgreSQL**, and **SQLAlchemy ORM**.  
-This project demonstrates how to build structured backend services with proper request validation, database modeling, and controlled API responses.
+A RESTful backend API built with **FastAPI**, **PostgreSQL**, and **SQLAlchemy ORM** that supports CRUD operations for posts and implements **user authentication with JWT**.
 
----
+### Features
 
-## 🚀 Features
+* CRUD operations for posts
+* User registration and login
+* Password hashing using bcrypt algorithm
+* JWT-based authentication
+* Protected routes requiring authentication
+* Request validation using Pydantic
 
-### Core Functionality
-- RESTful CRUD API for posts
-- PostgreSQL database integration
-- SQLAlchemy ORM models
-- Dependency-injected database sessions
-- Pydantic request validation
-- Response models for controlled API output
-- Automatic table creation from ORM models
-- Proper HTTP status codes and error handling
+### Tech Stack
 
-### Post Operations
-- Create a post
-- Retrieve all posts
-- Retrieve a single post by ID
-- Update a post
-- Delete a post
-
-### Project Architecture
-- Modular project structure (`models`, `schemas`, `database`)
-- Separation of ORM models and Pydantic schemas
-- Clean database session management
-- Ready for future extensions (authentication, users, etc.)
-
-
+* FastAPI
+* PostgreSQL
+* SQLAlchemy
+* Pydantic
+* JWT (python-jose)
